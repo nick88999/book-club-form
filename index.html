@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="en-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>The Club of Horror</title>
+    <link href="css/general.css" rel="stylesheet">
+</head>
+<link href='http://fonts.googleapis.com/css?family=Allan' rel='stylesheet' type='text/css'>
+
+<body>
+
+<div class="header"> <p> Go ahead, sign your soul away </p> </div>
+
+<div class="logo"> <img src="img/logo.svg" alt="THE CLUB OF HORROR" width="250" height="250"> </div>
+
+<form>
+
+    <div>
+        <label for="name">
+            Name
+        </label>
+        <input type="text" id="name" class="input-text input-error" required>
+    </div>
+    
+    
+    <div>
+        <label for="email">E-mail address</label>
+        <input type="email" id="email" class="input-text" maxlength="256">
+    </div>
+    
+    <div>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" class="input-text"> 
+    </div>
+    
+    <div>
+        <label for="address">Address</label>
+        <input type="text" id="address" class="input-text"> 
+    </div>
+    
+    <div>
+        <label for="city">City</label>
+        <input type="text" id="city" class="input-text"> 
+    </div>
+    
+      <div>
+    	<label for="province">Province</label>
+        <select id="province">
+        	<option></option>
+        	<option>Ontario</option>
+            <option>Quebec</option>
+            <option>Alberta</option>
+            <option>Manitoba</option>
+            <option>British Columbia</option>
+            <option>Nova Scotia</option>
+            <option>Saskatchewan</option>
+            <option>Prince Edward Island</option>
+            <option>New Brunswick</option>
+            <option>Newfoundland and Labrador</option>
+        </select>
+    </div>
+    
+    <div>
+        <label for="postal">Postal Code</label>
+        <input type="text" id="postal" class="input-text"> 
+    </div>
+    
+    <div>
+        <label for="time">What time of day would be best to meet?</label>
+        <input type="time" id="time" class="input-text"> 
+    </div>
+    
+    <div>
+        <label for="books">How many books have you read this year?</label>
+        <input type="number" id="books" class="input-text"> 
+    </div>
+    
+    <div>
+        <label for="favoritebook">Describe your favourite book & author</label>
+        <input type="textarea" id="favoritebook" class="input-text">
+    </div>
+    
+    <fieldset>
+    	<div class="colour"> <legend> How much do you love this genre?</legend> </div>
+        
+        <input type="radio" id="extreme-bad" name="satisfaction">
+        <label for="extreme-bad">Strongly dislike</label>
+        
+         <input type="radio" id="extreme-bad" name="satisfaction">
+        <label for="bad">I can tolerate it</label>
+        
+         <input type="radio" id="extreme-bad" name="satisfaction">
+        <label for="neutral">Its good</label>
+        
+         <input type="radio" id="extreme-bad" name="satisfaction">
+        <label for="good">Its great</label>
+        
+         <input type="radio" id="extreme-bad" name="satisfaction">
+        <label for="extreme-good">Absolutely love it</label>
+    
+    </fieldset>
+
+</body>
+</html>
